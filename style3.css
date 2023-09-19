@@ -113,6 +113,17 @@ input[type=email],
     transition: 0.5s;
 }
 
+.inscription a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 800px;
+    margin-top: -50px;
+    position: absolute;
+}
+
 .banniere {
     position: relative;
     width: 100%;
@@ -376,7 +387,8 @@ section {
     margin-top: 50px;
     justify-content: center;
     align-items: center;
-    margin-left: 38%;
+    margin-left: 32%;
+    opacity: 0.8;
 }
 
 
@@ -543,6 +555,10 @@ background: #d87710;
         font-size: 18px;
         margin: 10px 0px;
         color: #111;
+    }
+
+    .loginform {
+        display: none;
     }
 
     .banniere .contenu h2 {
