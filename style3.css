@@ -113,14 +113,32 @@ input[type=email],
     transition: 0.5s;
 }
 
+.loginform a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .inscription a {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 860px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+.inscription p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-left: 800px;
-    margin-top: -50px;
+    margin-top: -90px;
     position: absolute;
 }
 
@@ -565,11 +583,51 @@ background: #d87710;
     }
 
     .loginform {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .loginform a {
+        margin-left: 5px;
+    }
+
+    .inscription p {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .inscription a {
+        margin-left: 60px;
     }
 
     .banniere .contenu h2 {
         font-size: 2em;
+    }
+
+    .apropos {
+        padding-top: 20px;
+    }
+
+    .apropos h2 {
+        text-align: center;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .classiques {
+        padding-top: 170px;
     }
 
     .row .col50 img {
@@ -581,12 +639,8 @@ background: #d87710;
         font-size: 1.2em;
     }
 
-    .expert {
-        margin-top: 0px;
-    }
-
     .experts h2 {
-        padding-top: 150px;
+        padding-top: 50px;
     }
 
     .plats {
@@ -596,6 +650,10 @@ background: #d87710;
     .row {
         display: flex;
         flex-direction: column;
+    }
+
+    .contact {
+        padding-top: 0;
     }
     
     .contactform {
@@ -620,6 +678,14 @@ background: #d87710;
         color: #fff;
     }
 
+    .apropos {
+        padding-top: 0;
+    }
+
+    .classiques {
+        padding-top: 160px;
+    }
+
     .titre-text {
         color: #000;
         font-size: 2rem;
@@ -639,15 +705,16 @@ background: #d87710;
         display: none;
     }
 
-    .experts {
-        margin-top: 25px;
-    }
-
     .experts h2 {
-        padding-top: 90px;
+        padding-top: 60px;
     }
 
     .blanc .titre-text, .blanc p {
         color: #635e5e;
+    }
+
+    .contactform {
+        margin-top: 10px;
+        margin-left: 0;
     }
 }
